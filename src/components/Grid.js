@@ -99,7 +99,7 @@ const Grid = () => {
         className="grid"
         style={{
           display: 'grid',
-          gridTemplateColumns: `repeat(${numCols}, 4px)`,
+          gridTemplateColumns: `repeat(${numCols}, 3px)`,
         }}
       >
         {grid.map((row, rowIndex) =>

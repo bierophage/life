@@ -3,13 +3,13 @@ import React from 'react';
 
 const Cell = ({ isAlive, toggleCell }) => {
   const cellStyleWhite = {
-    width: '4px',
-    height: '4px',
+    width: '3px',
+    height: '3px',
     backgroundColor: 'white' 
   };
   const cellStyleBlack = {
-    width: '4px',
-    height: '4px',
+    width: '3px',
+    height: '3px',
     backgroundColor: 'black' 
   };
   return (
